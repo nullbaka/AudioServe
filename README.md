@@ -22,11 +22,8 @@ python3 manage.py runserver
 4. For update, only the field that needs to be changed may be entered. Re-entering all the key-value pairs is not necessary.
 
 **Create:** `localhost:8000/create/audioType/`
-
 **Read:** `localhost:8000/read/audioType/` or `localhost:8000/read/song/2/`
-
 **Update:** `localhost:8000/update/podcast/2/`
-
 **Delete:** `localhost:8000/delete/audiobook/2/`
 
 ### Thank you and have fun.
