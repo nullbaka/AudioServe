@@ -20,6 +20,7 @@ python3 manage.py runserver
 2. All Urls must end with /, or you might get 301 redirect.
 3. The participants field must a comma separated string. For example, `adam, bob, carl, dennis`. This is parsed and saved as `json` in the database.
 4. For update, only the field that needs to be changed may be entered. Re-entering all the key-value pairs is not necessary.
+
 **Create: ** `localhost:8000/create/audioType/`
 **Read: ** `localhost:8000/read/audioType/` or `localhost:8000/read/song/2/`
 **Update: ** `localhost:8000/update/podcast/2/`
