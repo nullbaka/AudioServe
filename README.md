@@ -18,7 +18,7 @@ python3 manage.py runserver
 
 1. All POST data should be entered as dictionary in the request body. For example, as form-data in Postman.
 2. All Urls must end with /, or you might get 301 redirect.
-3. The participants field must a comma separated string. For example, `adam, bob, carl, dennis`. This is parsed and saved as `json` in the database.
+3. The participants field must be a comma separated string. For example, `adam, bob, carl, dennis`. This is parsed and saved as `json` in the database.
 4. For update, only the field that needs to be changed may be entered. Re-entering all the key-value pairs is not necessary.
 
 **Create:** `localhost:8000/create/audioType/`
